@@ -1,0 +1,6 @@
+@media(min-width:600px){
+
+    .top-navbar{
+        box-shadow: 0 0 50px gray !important ;
+    }
+}

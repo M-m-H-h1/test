@@ -1,51 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My_project</title>
-    <link rel="stylesheet" href="/test1/assets/materialize/css/materialize.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="/test1/assets/materialize/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/test1/assets/css/utils.css">
+  </head>
 
-</head>
+  <body>
+    <!-- navbar start -->
+    <nav class="white z-depth-0 top-navbar">
+      <div class="nav-wrapper">
+        <a href="#!" class="blue-text hide-on-med-and-up">Home</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul class="hide-on-med-and-down">
+          <li><a href="/test1/users.html" class="blue-text">Home</a></li>
+          <li><a href="/test1/users.html" class="blue-text">User Masengment</a></li>
+          <li><a href="/test1/users.html" class="blue-text">Codeyad</a></li>
+          <li><a href="/test1/users.html" class="blue-text">AQ fast learn</a></li>
+        </ul>
+      </div>
+    </nav>
 
-<body>
-    
-    <nav class="white z-depth-0">
-        <div class="nav-wrapper">
-          <a href="#!" class="blue-text">Home</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
-          </ul>
-        </div>
-      </nav>
-    
-      <ul class="sidenav" id="mobile-demo">
-        <li><div class="user-view">
+    <ul class="sidenav" id="mobile-demo">
+      <li>
+        <div class="user-view">
           <div class="background">
-            <img src="/test1/assets/img/test.jpg">
+            <img src="/test1/assets/img/test.jpg" />
           </div>
-          <a href="#user"><img class="circle" src="/test1/assets/img/test.jpg"></a>
-          <a href="#name"><span class="white-text name">Mohammad Javad</span></a>
-          <a href="#email"><span class="white-text email">Em@gmail.com</span></a>
-        </div></li>
-        <li><a href="#!"><i class="material-icons">insert_link</i>First Link With Icon</a></li>
-        <li><a href="#!"><i class="material-icons">insert_link</i>First Link With Icon</a></li>
-        <li><a href="#!">Second Link</a></li>
-        <li><div class="divider"></div></li>
-        <li><a class="subheader">Subheader</a></li>
-        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-      </ul>
-      
-              
+          <a 
+            ><img class="circle" src="/test1/assets/img/test.jpg"
+          /></a>
+          <a 
+            ><span class="white-text name">Mohammad Javad</span></a
+          >
+          <a 
+            ><span class="white-text email">Em@gmail.com</span></a
+          >
+        </div>
+      </li>
+      <li>
+        <a href="#!"
+          ><i class="material-icons">insert_link</i>First Link With Icon</a
+        >
+      </li>
+      <li>
+        <a href="#!"
+          ><i class="material-icons">insert_link</i>First Link With Icon</a
+        >
+      </li>
+      <li><a href="#!">Second Link</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader">Subheader</a></li>
+      <li><a class="waves-effect" href="/test1/users.html">Third Link With Waves</a></li>
+    </ul>
+    <!-- navbar end -->
 
-</body>
+    <!-- home start -->
 
-<script src="/test1/assets/materialize/js/materialize.min.js"></script>
-<script src="/test1/assets/js/main.js"></script>
+    <section class="flex-c-m flex-col sizefull p-r-20 p-l-20 p-t-100">
+      <img src="/test1/assets/img/test.jpg" class="w-full max-w-200 rounded-pill waves-effect filter-drop-shadow" alt="this not suported">
+      <a href="/test1/users.html" class="waves-effect waves-red btn blue text-darken-3 w-full max-w-250 m-t-10 rounded-pill ">button</a>
+      <a href="/test1/users.html" class="waves-effect waves-yellow btn w-full max-w-250 m-t-10 rounded-pill">button</a>
+    </section>
+
+    <!-- home end -->
+  </body>
+
+  <script src="/test1/assets/materialize/js/materialize.min.js"></script>
+  <script src="/test1/assets/js/main.js"></script>
 </html>
